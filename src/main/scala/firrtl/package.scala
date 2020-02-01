@@ -38,4 +38,10 @@ package object firrtl {
     case BIGENDER      => DuplexFlow
     case UNKNOWNGENDER => UnknownFlow
   }
+
+  type WRef = ir.Reference
+  type WSubField = ir.SubField
+  type WSubIndex = ir.SubIndex
+  type WSubAccess = ir.SubAccess
+  type WDefInstance = ir.DefInstance
 }
